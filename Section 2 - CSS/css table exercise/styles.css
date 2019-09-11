@@ -1,0 +1,12 @@
+body {
+	background-color: black; text-align: center;
+}
+
+h1, h2 {
+	color: red;
+}
+
+table {
+	border: white;
+	color: red;
+}
