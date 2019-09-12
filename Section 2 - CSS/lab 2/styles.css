@@ -1,0 +1,25 @@
+body {
+	background-color: DarkSlateGray; 
+	text-align: center;
+	font-family: "Arial", Helvetica, sans-serif;
+}
+a {
+	color: White;
+}
+
+h2, h3, hr {
+	color: MintCream;
+}
+
+h1 {
+	color: DarkSlateGray;
+	background-color: MintCream;
+
+}
+
+
+ul, p, li {
+	color: MintCream;
+	list-style-position: inside;
+}
+
