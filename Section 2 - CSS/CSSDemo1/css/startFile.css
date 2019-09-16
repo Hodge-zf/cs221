@@ -1,0 +1,29 @@
+body {
+	background-image: url("C:/Users/SIU850955946/Documents/cs221/Section 2 - CSS/CSSDemo1/images/bg2.JPG");
+}
+
+.music {
+	color: blue; }
+.music a {
+	color: red; }
+.music a:hover {
+	color: gray;
+	font-weight: lighter;
+}
+
+.table {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.table th {
+	border-width: 6px;
+	border-style: groove;
+	border-color: red;
+}
+.table td {
+	background-color: cyan;
+	font-style: italic;
+}
+	
