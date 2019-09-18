@@ -1,0 +1,22 @@
+.pink {
+	color: Pink;
+}
+
+.blue {
+	color: Blue;
+}
+
+.red {
+	color: Red;
+}
+
+ol {
+	list-style-type: upper-roman;
+}
+ol ol { 
+	list-style-type: upper-alpha;
+}
+
+ol ol ol {
+	list-style-type: decimal;
+}
