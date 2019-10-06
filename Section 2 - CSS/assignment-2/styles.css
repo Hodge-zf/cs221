@@ -6,12 +6,15 @@ body {
 
 .green {
 	color: Green;
-	border: 1px solid green;
+	border: 3px solid green;
 }
-
 
 td, th{
   color: Black;
   border: 1px solid green;
   border-style: solid;
+}
+
+td:hover, th:hover{
+  border-color: red;
 }
