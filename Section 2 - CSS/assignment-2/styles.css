@@ -1,0 +1,17 @@
+body {
+  background-image: url("background.jpg");
+  text-align: center;
+
+}
+
+.green {
+	color: Green;
+	border: 1px solid green;
+}
+
+
+td, th{
+  color: Black;
+  border: 1px solid green;
+  border-style: solid;
+}
