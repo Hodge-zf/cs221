@@ -6,9 +6,16 @@ body {
 
 .green {
 	color: Green;
-	border: 3px solid green;
+	border: 2px solid green;
 }
 
+tr{
+  text-align:left;
+  margin-left: auto;
+}
+caption{
+  text-align: left;
+}
 td, th{
   color: Black;
   border: 1px solid green;
@@ -17,4 +24,14 @@ td, th{
 
 td:hover, th:hover{
   border-color: red;
+}
+
+.button{
+  background-color: green;
+  color: white;
+  border-radius: 25px;
+  float: left;
+}
+.button:hover{
+  background-color: blue;
 }

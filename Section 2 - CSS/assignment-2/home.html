@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<title>Home</title>
+    <meta charset = "utf-8" />
 		<link rel="stylesheet" href="styles.css" type="text/css">
 	</head>
 
@@ -16,31 +17,31 @@
 
     <table>
 
-        <caption><h1 align="left">Traveller Information</h1></caption>
+        <caption><h1>Traveller Information</h1></caption>
 
-        <tr align="left">
+        <tr>
             <td>Employee ID:</td>
             <td colspan="2"><input type="text" name="EmployeeId" required></td>
             <td>Email:</td>
             <td colspan="2"><input type="email" name="email" required></td>
         </tr>
-        <tr align="left">
+        <tr>
             <td>Last Name:</td>
             <td colspan="2"><input type="text" name="LastName" required></td>
             <td>First Name:</td>
             <td colspan="2"><input type="text" name="FirstName" required></td>
         </tr>
-        <tr align="left">
+        <tr>
             <td>Address:</td>
             <td colspan="5"><input type="text" name="Address" size="60" required></td>
         </tr>
-        <tr align="left">
+        <tr>
             <td>City:</td>
             <td colspan="2"><input type="text" name="City" required></td>
             <td>State:</td>
             <td colspan="2"><input type="text" name="State" required></td>
         </tr>
-        <tr align="left">
+        <tr>
             <td>Zip:</td>
             <td colspan="2"><input type="text" name="Zip" required></td>
             <td>Phone:</td>
@@ -49,32 +50,32 @@
       </table>
 
       <table>
-        <caption><h1 align="left">Trip Information</h1></caption>
+        <caption><h1>Trip Information</h1></caption>
 
         <tr>
           <th colspan="3">Dates of Travel</th>
           <th colspan="3">Dates of Meeting</th>
         </tr>
-        <tr align="left">
+        <tr>
           <td>From:</td>
           <td colspan="2"><input type="date" name="TravelFrom" required></td>
           <td>From:</td>
           <td colspan="2"><input type="date" name="MeetingFrom" required></td>
         </tr>
-        <tr align="left">
+        <tr>
           <td>To:</td>
           <td colspan="2"><input type="date" name="TravelTo" required></td>
           <td>To:</td>
           <td colspan="2"><input type="date" name="MeetingTo" required></td>
         </tr>
-        <tr align="left">
+        <tr>
           <td>Purpose:</td>
           <td colspan="5"><select>
                 <option value="ProfessionalMeeting" selected>Professional Meeting</option>
-                <option value="Holiday" selected>Holiday</option>
+                <option value="Holiday">Holiday</option></select>
           </td>
         </tr>
-        <tr align="left">
+        <tr>
           <td>Level:</td>
           <td colspan="5">
             <input type="radio" name="level" value="Regional" />Regional
@@ -82,30 +83,29 @@
             <input type="radio" name="level" value="National" />National
             <input type="radio" name="level" value="International" />International
         </tr>
-        <tr align="left">
+        <tr>
           <td>Description:</td>
           <td colspan="5">
-            <textarea name="description" row="2" cols="47"></textarea>
+            <textarea name="description" rows="2" cols="47"></textarea>
           </td>
         </tr>
-        <tr align="left">
+        <tr>
           <td colspan="3">Was a personal vehicle used?</td>
           <td colspan="3">
             <input type="radio" name="PersonalVehicle" value="Yes" />Yes
             <input type="radio" name="PersonalVehicle" value="no" />No
           </td>
         </tr>
-        <tr align="left">
+        <tr>
           <td colspan="3">Was a university vehicle used?</td>
           <td colspan="3">
             <input type="radio" name="UniversityVehicle" value="Yes" />Yes
             <input type="radio" name="UniversityVehicle" value="No" />No
           </td>
         </tr>
-      </table>
-
-      <table>
-        <caption><h1 align="left">Itinerary Information</h1></caption>
+        </table>
+        <table>
+        <caption><h1>Itinerary Information</h1></caption>
 
         <tr>
           <th>Date</th>
@@ -114,7 +114,7 @@
           <th>Auto Mileage</th>
           <th>Meals</th>
         </tr>
-        <tr align="left">
+        <tr>
           <td><input type="date" name="Date1"></td>
           <td><input type="text" name="Depart1"></td>
           <td><input type="text" name="Arrive1"></td>
@@ -125,7 +125,7 @@
             <input type="checkbox" name="Meals1" value="Dinner" />Dinner
           </td>
         </tr>
-        <tr align="left">
+        <tr>
           <td><input type="date" name="Date2"></td>
           <td><input type="text" name="Depart2"></td>
           <td><input type="text" name="Arrive2"></td>
@@ -135,7 +135,7 @@
             <input type="checkbox" name="Meals2" value="Lunch" />Lunch
             <input type="checkbox" name="Meals2" value="Dinner" />Dinner
           </td>
-          <tr align="left">
+          <tr>
             <td><input type="date" name="Date3"></td>
             <td><input type="text" name="Depart3"></td>
             <td><input type="text" name="Arrive3"></td>
@@ -146,12 +146,11 @@
               <input type="checkbox" name="Meals3" value="Dinner" />Dinner
             </td>
           </tr>
-
-
-        </tr>
-
-
-      </table>
-
+          </table>
+          <p></p>
+      <hr class="green">
+      <button type="submit" value="Submit" class="button">Send Report</button>
+      <input type="reset" class="button">
+      </form>
 	</body>
 </html>
