@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Searching for a file that contains the word box in the $1 directory"
+find $1 -name "*box*" | while read line; do
+	echo "cat" >> $line
+done 
