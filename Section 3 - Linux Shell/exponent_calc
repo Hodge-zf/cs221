@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Performing the calculation of $1 raise to the power of $2"
+echo "The result is: $(($1**$2))"
+
