@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ -d "$1" ]]; then
+	cd $1
+	grep -r "*text*"
+	exit
+else
+	echo "not a directory"
+fi
