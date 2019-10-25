@@ -12,4 +12,3 @@ int main( void )
         sum = integer1 + integer2;
         printf( "Sum is %d\n", sum);
 }
-[root@localhost ~]#
